@@ -1,0 +1,37 @@
+.headerContainer {
+    background: var(--full-black);
+    
+    height: 6.5rem;
+
+    display: flex;
+    align-items: center;
+
+    padding: 2rem 2rem;
+
+    border-bottom: 1px solid var(--gray-100);
+
+
+    img {
+        color: var(--white)
+    }
+
+    a {
+        color: var(--white);
+        border: none;
+        font-family: Lexend, sans-serif;
+        font-size: 1.6rem;
+        text-decoration: none;
+    }
+
+
+    p {
+        margin-left: 2rem;
+        padding: 0.25rem 0 0.25rem 2rem;
+        border-left: 1px solid var(--gray-100);
+    }
+
+    span {
+        margin-left: auto;
+        text-transform: capitalize;
+    }
+}
